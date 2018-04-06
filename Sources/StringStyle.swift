@@ -87,7 +87,7 @@ extension String {
   func replacing(subString: String, withString: String, inRange range: Range<String.Index>) -> String {
     let beforeString = self[self.startIndex..<range.lowerBound]
     let afterString = self[range.upperBound..<self.endIndex]
-    let strToReplace = String(self[range])
+    let strToReplace = String(self[range])!
 
     return "\(beforeString)\(strToReplace.replacing(subString: subString, withString: withString))\(afterString)"
   }

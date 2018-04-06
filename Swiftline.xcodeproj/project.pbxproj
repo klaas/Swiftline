@@ -62,28 +62,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A8F07FB207804BF0040B41E /* PBXContainerItemProxy */ = {
+		4A8F07FF207808FD0040B41E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "StringScanner::StringScanner";
 			remoteInfo = StringScanner;
 		};
-		4A8F07FC207804BF0040B41E /* PBXContainerItemProxy */ = {
+		4A8F0800207808FD0040B41E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Swiftline::Swiftline";
 			remoteInfo = Swiftline;
 		};
-		4A8F07FD207804BF0040B41E /* PBXContainerItemProxy */ = {
+		4A8F0801207808FD0040B41E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "StringScanner::StringScanner";
 			remoteInfo = StringScanner;
 		};
-		4A8F07FE207804BF0040B41E /* PBXContainerItemProxy */ = {
+		4A8F0802207808FE0040B41E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -131,7 +131,7 @@
 		OBJ_9 /* AgreeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeSettings.swift; sourceTree = "<group>"; };
 		"StringScanner::StringScanner::Product" /* StringScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StringScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Swiftline::Swiftline::Product" /* Swiftline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swiftline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Swiftline::SwiftlineTests::Product" /* SwiftlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SwiftlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Swiftline::SwiftlineTests::Product" /* SwiftlineTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,12 +190,12 @@
 		OBJ_39 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_40 /* StringScanner 0.2.0 */,
+				OBJ_40 /* StringScanner 0.3.2 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_40 /* StringScanner 0.2.0 */ = {
+		OBJ_40 /* StringScanner 0.3.2 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_41 /* Package.swift */,
@@ -205,16 +205,16 @@
 				OBJ_45 /* StringExtension.swift */,
 				OBJ_46 /* StringScanner.swift */,
 			);
-			name = "StringScanner 0.2.0";
+			name = "StringScanner 0.3.2";
 			path = ".build/checkouts/StringScanner-1886185151129191747/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"Swiftline::SwiftlineTests::Product" /* SwiftlineTests.xctest */,
-				"StringScanner::StringScanner::Product" /* StringScanner.framework */,
 				"Swiftline::Swiftline::Product" /* Swiftline.framework */,
+				"StringScanner::StringScanner::Product" /* StringScanner.framework */,
+				"Swiftline::SwiftlineTests::Product" /* SwiftlineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -347,17 +347,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-					"StringScanner::StringScanner" = {
-						LastSwiftMigration = 0930;
-					};
-					"Swiftline::Swiftline" = {
-						LastSwiftMigration = 0930;
-					};
-					"Swiftline::SwiftlineTests" = {
-						LastSwiftMigration = 0930;
-					};
-				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Swiftline" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -458,22 +447,22 @@
 		OBJ_105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Swiftline::SwiftlineTests" /* SwiftlineTests */;
-			targetProxy = 4A8F07FE207804BF0040B41E /* PBXContainerItemProxy */;
+			targetProxy = 4A8F0802207808FE0040B41E /* PBXContainerItemProxy */;
 		};
 		OBJ_123 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Swiftline::Swiftline" /* Swiftline */;
-			targetProxy = 4A8F07FC207804BF0040B41E /* PBXContainerItemProxy */;
+			targetProxy = 4A8F0800207808FD0040B41E /* PBXContainerItemProxy */;
 		};
 		OBJ_124 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "StringScanner::StringScanner" /* StringScanner */;
-			targetProxy = 4A8F07FD207804BF0040B41E /* PBXContainerItemProxy */;
+			targetProxy = 4A8F0801207808FD0040B41E /* PBXContainerItemProxy */;
 		};
 		OBJ_94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "StringScanner::StringScanner" /* StringScanner */;
-			targetProxy = 4A8F07FB207804BF0040B41E /* PBXContainerItemProxy */;
+			targetProxy = 4A8F07FF207808FD0040B41E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,8 +493,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = SwiftlineTests;
 			};
 			name = Debug;
@@ -524,8 +512,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = SwiftlineTests;
 			};
 			name = Release;
@@ -590,8 +577,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = StringScanner;
 			};
 			name = Debug;
@@ -614,8 +600,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = StringScanner;
 			};
 			name = Release;
@@ -624,8 +609,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -633,8 +618,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -656,8 +641,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = Swiftline;
 			};
 			name = Debug;
@@ -680,8 +664,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = Swiftline;
 			};
 			name = Release;
